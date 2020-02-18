@@ -18,9 +18,8 @@ namespace BaseModule
         // Respect the force argument and return a non-null item if true
         public async Task<IItem> Post(bool force)
         {
-            if (force || random.NextDouble() > .8f)
+            if (force || random.NextDouble() <= .8f)
             {
-                Console.WriteLine("PRINTING " + config.PostMessage.Value);
                 return new ItemText(config.PostMessage.Value);
             }
             return null;
