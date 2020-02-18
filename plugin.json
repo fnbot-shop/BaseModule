@@ -1,0 +1,10 @@
+﻿{
+  "name": "Base Module",
+  "description": "Just a test module",
+  "version": "1.0",
+  "guid": "4ff2c531bd8e41d0a5886819f710501a",
+  "main": "BaseModule.BaseModule",
+  "type": "module",
+  "verify": true,
+  "pdb": true
+}
